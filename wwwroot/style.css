@@ -1,0 +1,34 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+#note-list .list-group-item {
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    user-select: none;
+}
+
+#note-list .list-group-item.active {
+    font-weight: bold;
+}
+
+textarea#note-content {
+    min-height: 200px;
+    resize: none;
+}
+
+/* Command palette styling */
+.modal-content {
+    border-radius: 12px;
+}
+.modal-title {
+    font-weight: 500;
+}
+#palette-search {
+    border-radius: 8px;
+}
+#palette-list .list-group-item {
+    cursor: pointer;
+}
